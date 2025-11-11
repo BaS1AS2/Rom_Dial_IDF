@@ -18,7 +18,8 @@
         "*.inc": "cpp",
         "dial.h": "c",
         "foc_knob.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "usb_device.h": "c"
     },
     "idf.portWin": "COM7",
     "idf.flashType": "UART"

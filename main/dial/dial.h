@@ -3,13 +3,14 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+
 #include "foc_knob.h"
 #include "foc_knob_default.h"
 #define SWITCH_BUTTON GPIO_NUM_5
 #define PHASE_U_GPIO 15
 #define PHASE_V_GPIO 16
 #define PHASE_W_GPIO 17
-#define MOTOR_PP     7
+#define MOTOR_PP 7
 #define MT6701_SPI_HOST SPI3_HOST
 #define MT6701_SPI_SCLK_GPIO 2
 #define MT6701_SPI_MISO_GPIO 1
@@ -33,6 +34,5 @@ void knob_event_init();
 uint16_t get_fknob_shaft_angle(void);
 
 #ifdef __cplusplus
-
 }
 #endif
