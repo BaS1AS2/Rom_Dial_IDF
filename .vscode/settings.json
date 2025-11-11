@@ -1,0 +1,25 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "files.associations": {
+        "lvgl.h": "c",
+        "random": "c",
+        "algorithm": "c",
+        "cmath": "c",
+        "functional": "c",
+        "iterator": "c",
+        "memory": "c",
+        "numeric": "c",
+        "iomanip": "c",
+        "regex": "c",
+        "variant": "c",
+        "ui.h": "c",
+        "led_ring.h": "c",
+        "*.rh": "cpp",
+        "*.inc": "cpp",
+        "dial.h": "c",
+        "foc_knob.h": "c",
+        "iostream": "cpp"
+    },
+    "idf.portWin": "COM7",
+    "idf.flashType": "UART"
+}
